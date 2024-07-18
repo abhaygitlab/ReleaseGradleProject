@@ -24,7 +24,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/abhaygitlab/gradle-project")
+            url = uri("https://maven.pkg.github.com/abhaygitlab/ReleaseGradelProject")
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
                 password = project.findProperty("gpr.token") ?: System.getenv("mygithub_token")
